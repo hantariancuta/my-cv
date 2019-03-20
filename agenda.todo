@@ -1,0 +1,12 @@
+Todo list:
+#Landing page (part 1)
+clean _partial from previous lesson 
+use iconoon.io to generate custom font
+download font files and fount source into _asset/font (commit)
+create layout/page
+add border-box and fluid typography
+add reset css
+import font files (commit)
+create full name variable and implement into structure 
+create title variable and implement into structure 
+create social list variable composed of obsjects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit)
