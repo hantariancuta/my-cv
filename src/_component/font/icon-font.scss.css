@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?f5a9n7') format('truetype'),
-    url('fonts/my-cv.woff?f5a9n7') format('woff'),
-    url('fonts/my-cv.svg?f5a9n7#my-cv') format('svg');
+    url(asset/font/my-cv.ttf?f5a9n7') format('truetype'),
+    url(asset/font/my-cv.woff?f5a9n7') format('woff'),
+    url(asset/font/my-cv.svg?f5a9n7#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
 }
