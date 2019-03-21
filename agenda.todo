@@ -1,8 +1,8 @@
 Todo list:
 #Landing page (part 1)
-clean _partial from previous lesson 
-use iconoon.io to generate custom font
-download font files and fount source into _asset/font (commit)
+✔ clean _partial from previous lesson @done(19-03-21 13:48)
+✔ use iconoon.io to generate custom font @done(19-03-21 16:34)
+✔ downloads font files and font source into _asset/font (commit) @done(19-03-21 16:36)
 create layout/page
 add border-box and fluid typography
 add reset css
