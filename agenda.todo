@@ -9,4 +9,4 @@ add reset css
 import font files (commit)
 create full name variable and implement into structure 
 create title variable and implement into structure 
-create social list variable composed of obsjects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit)
+create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit)
