@@ -9,5 +9,5 @@ html {
   // 100 vmin ->the smaller value of the width and height of the viewpoint
   // 400px ->min screen size 800 - 400 ->max screen size - min screen size 
   // Check out: https: //www.smashimagazine.com/2016/05/fluid-typography/@at-root
-  font-size: calc(12px + (24 - 12) * ((100vmin - 400px))/(800 - 400)));
+  font-size: calc(12px + (24 - 12) * ((100vmin - 400px))/(800 - 400));
 }
