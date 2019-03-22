@@ -7,6 +7,6 @@ Todo list:
 ✔ add border-box and fluid typography @done(19-03-22 16:22)
 ✔ add reset css @done(19-03-22 17:45)
 ✔ import font files (commit) @done(19-03-22 17:45)
-create full name variable and implement into structure 
-create title variable and implement into structure 
+✔ create full name variable and implement into structure @done(19-03-22 23:36)
+✔ create title variable and implement into structure @done(19-03-22 23:37)
 create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit)
