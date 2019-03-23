@@ -1,10 +1,29 @@
 -
     var myFullName = 'Ancuta Hantari'
     var myJobTitle = 'starter in web development'
+    var socialList = [
+        {icon: 'google2', url: 'http://google2/codetap'},
+        {icon: 'facebook2', url: 'http://facebook.com/hantariancuta'},
+        {icon: 'twitter', url: 'http://twitter.com/hantariancuta'},
+        {icon: 'youtube', url: 'http://youtube.com/codetap'},
+        {icon: 'github', url: 'http://github.com/hantariancuta'},
+        {icon: 'stackoverflow', url: 'http://stackoverflow.com/codetap'},
+        {icon: 'skype', url: 'http://skype.com/hantariancuta'},
+        {icon: 'linkedin', url: 'http://linkedin.com/hantariancuta'},
+        {icon: 'earth', url: 'http://earth.com/codetap'},
+        
+        
+
+
+    ]
 #landing-page
 .landing-page
     .landing-page__wrapper
         h2.landing-page__name=myFullName
         h1.landing-page__title=myJobTitle
         ul.landing-page__social
+            each social in socialList
+                li.landing-page__item
+                    label.landing-page__label(for="")
+                        span(class=`my-cv__icon--${social.icon}`)
     
