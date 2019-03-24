@@ -13,6 +13,10 @@ Todo list:
 
 #Landing page (part 2)
 ✔ create landing page labels into social  > social-item > social-label @done(19-03-23 23:23)
-☐ create input box-radio list next to box-message which contains a box link 
-☐ create a reset input radio followed by a box-message and box-header which contains a box-info and a box-close
+✔ create input box-radio list next to box-message which contains a box link @done(19-03-24 11:19)
+✔ group input type radio @done(19-03-24 11:25)
+link label for attribute to input id attribute 
+☐ create a reset input radio followed by a box-message and box-header which contains a box-info and a box-close label
+
+#Landing page (part 3)
 ☐ style landing page
