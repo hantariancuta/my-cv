@@ -9,7 +9,7 @@
         {icon: 'github', url: 'http://github.com/hantariancuta'},
         {icon: 'stackoverflow', url: 'http://stackoverflow.com/codetap'},
         {icon: 'skype', url: 'http://skype.com/hantariancuta'},
-        {icon: 'linkedin', url: 'http://linkedin.com/hantariancuta'},
+        {icon: 'linkedin', url: 'https://www.linkedin.com/in/ancuta-hantari-57b59825/'},
         {icon: 'earth', url: 'http://earth.com/codetap'},
         
         
@@ -26,4 +26,8 @@
                 li.landing-page__item
                     label.landing-page__label(for="")
                         span(class=`my-cv__icon--${social.icon}`)
-    
+        .landing-page__box-body
+         each social in socialList 
+            input.landing-page__box-radio(type="radio")
+            .landing-page__box-message
+                a.landing-page__box-link(href=social.url, target="_blank")=social.url
