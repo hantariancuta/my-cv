@@ -28,3 +28,17 @@ link label for attribute to input id attribute
 ✔ .landing-page__social orizontal align @done(19-03-26 00:23)
 ✔ .landing-page__label font size, color and @done(19-03-26 00:48)
 
+# Landing page, part 4 - reveal link 
+- input:checked (pseudo class)
+-div  + div (sibling selector)
+
+✔ test the sibling selector on @done(19-03-26 18:18)
+.landing-page __box-message related to 
+.landing-page__box-radio: checked
+✔ hide.landing-page__box-radio and @done(19-03-26 18:19)
+✔ .landing-page__box-message and show only the one next to the checked input @done(19-03-26 18:18)
+✔ hide.landing-page__box-header (Click to visit) when any input that reveals a link is not checked @done(19-03-26 18:21)
+☐ style .landing-page__box-body with a white rounded border, space out content and make it position relative to prepare for
+positioning of .landing-page__box-header and clear the red border   
+
+
