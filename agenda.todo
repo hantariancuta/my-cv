@@ -20,11 +20,11 @@ link label for attribute to input id attribute
 
 #Landing page (part 3)
 ☐ style landing page
-☐ make the landing-page, full-height 
-☐ html and body full-height and font-size
-☐ .landing-page wrapper__center content 
-☐ .landing-page__name font-size and UPPERCASE
-☐ .landing-page__title font size and Capital
-☐ .landing-page__social orizontal align 
-☐ .landing-page__item font size, color and
+✔ make the landing-page, full-height @done(19-03-25 16:33)
+✔ html and body full-height and font-size @done(19-03-25 16:33)
+✔ .landing-page wrapper__center content @done(19-03-26 00:14)
+✔ .landing-page__name font-size and UPPERCASE @done(19-03-26 00:20)
+✔ .landing-page__title font size and Capital @done(19-03-26 00:19)
+✔ .landing-page__social orizontal align @done(19-03-26 00:23)
+✔ .landing-page__label font size, color and @done(19-03-26 00:48)
 
