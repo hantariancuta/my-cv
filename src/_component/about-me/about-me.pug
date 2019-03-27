@@ -13,7 +13,7 @@
 
     var coolStuff = 
         {
-        title: 'ttt',  
+        title: 'grab cool stuff',  
         buttonList: [
             {
                     url: 
@@ -36,8 +36,7 @@ about-me this is the class
     .about-me__full-name=myFullName
     .about-me__full-title=myTitle        
     .about-me__slogan=slogan
-    
-    each button in coolStuff.buttonList
-        a(href=button.url)
-            span=button.label
-            span(class= `.my-cv__icon--${button.icon}`)
+
+    .about-me__title-coolStuff.title
+    .about-me__link.list
+   
