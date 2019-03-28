@@ -1,42 +1,42 @@
-//- data come here
+// Data comes here
 -
     var header = '#about me'
-    var imagePath = "asset/image/Ancuta Hantari.jpg"
+    var imagePath = "asset/image/ancuta-hantari.jpg"
     var myFullName = "Ancuta Hantari"
     var myTitle = "Starter in Web Development"
-    var Slogan = "Everyday in every way I'm getting better and better"
+    var slogan = "Everyday in every way I'm getting better and better"
     var achievement = {
         title: 'achievement',
         content: 'I have started to learn web development a few months ago.',
-
     }
 
-    var coolStuff = 
-        {
-        title: 'grab cool stuff',  
+    var coolStuff = {
+        title: 'grab cool stuff',
         buttonList: [
             {
-                    url: 
-                    'http://github.com/hantariancuta',
-                    icon: 'github',
-                    label: 'Click to visit the GitHub project source'
+                    "url": "http://github.com/hantariancuta",
+                    "icon": "github",
+                    "label": "Click to visit the GitHub project source"
             }
-            
         ]
     }
-    
 
-//- the view comes here 
-
-#about-me  this is the ID
-about-me this is the class
+// The view comes here
+#about-me
+.about-me
     .about-me__header=header
     .about-me__avatar-wrapper
         img.about-me__avatar(src=imagePath)
     .about-me__full-name=myFullName
-    .about-me__full-title=myTitle        
+    .about-me__title=myTitle
     .about-me__slogan=slogan
 
-    .about-me__title-coolStuff.title
-    .about-me__link.list
-   
+    .about-me__title=achievement.title
+    .about-me__content=achievement.content
+
+    .about-me__title=coolStuff.title
+    .about-me__link-list
+        each button in coolStuff.buttonList
+            a.about-me__link(href=button.url)
+                span.about-me__link-description=button.label
+                span(class=`my-cv__icon--${button.icon}`)
