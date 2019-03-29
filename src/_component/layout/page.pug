@@ -1,12 +1,13 @@
 doctype html
 html
+    - var baseUrl = taskTarget === 'tmp' ? '' : '/my-cv'
     block cool-config
     head
         title=myTitleForGoogleSearch
         meta(name="description", content=myDescriptionForGoogleSearch)
         link(
             rel="stylesheet",
-            href="/style.css"
+            href=`${baseUrl}/style.css`
         )
     body
         block awesome-content
