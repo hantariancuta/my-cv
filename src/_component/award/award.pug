@@ -9,10 +9,19 @@
 
 #award
 .award
+    //- trophy to title
+    //- info to description
+    //- map2 to location
+    //- calendar to date
     .award__header=awardHeader
     .award__card
-        .award__title=title
-        .award__description=description
-        .award__location=location
-        .award__date=date
+        award.icon
+            span.my-cv__icon--trophy
+        .award__title=award.title
+
+        award.icon
+            span.my-cv__icon--info
+        .award__description=award.description
+        .award__location=award.location
+        .award__date=award.date
 

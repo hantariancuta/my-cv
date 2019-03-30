@@ -27,7 +27,7 @@
   justify-content: center;
 
   .landing-page__label {
-    color: white;
+    color: $color-white;
     padding: 0.1rem 0.3rem;
     font-size: 2rem;
     cursor: pointer;
@@ -57,7 +57,7 @@
 
   .landing-page__box-body {
     display: inline-block;
-    border: 0.2rem solid white;
+    border: 0.2rem solid $color-white;
     border-radius: 0.5rem;
     padding: 0.8rem;
     margin-top: 0.5rem;
