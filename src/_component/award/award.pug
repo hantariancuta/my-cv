@@ -3,7 +3,7 @@
     var awardList = [
         {
             title: 'Learn Web Development',
-            description: 'something',
+            description: 'intensive study',
             location: 'something',
             date: 'something'
         },
@@ -28,29 +28,18 @@
                 span.my-cv__icon--trophy
 
 
-            .award__title-award.title
+            .award__title=award.title
 
             .award__icon
                 span.my-cv__icon--info
 
 
-            .award__description-award-description
+            .award__description=award.description
 
             .award__icon
                 span.my-cv__icon--map2
-            .award__location-award-location
+            .award__location=award.location
 
             .award__icon
                 span.my-cv__icon--calendar
-            .award__date-award-date
-
-
-            span.my-cv__icon--trophy
-        .award__title=award.title
-
-        award.icon
-            span.my-cv__icon--info
-        .award__description=award.description
-        .award__location=award.location
-        .award__date=award.date
-
+            .award__date=award.date
