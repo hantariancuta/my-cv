@@ -1,11 +1,19 @@
 -
     var awardHeader = '#awards'
-    var award  = {
-         title: 'something',
-         description: 'something',
-         location: 'something',
-         date: 'something'
-    }; 
+    var awardList = [
+        {
+            title: 'Learn Web Development',
+            description: 'something',
+            location: 'something',
+            date: 'something'
+        },
+        {
+            title: 'Starter in Web Development',
+            description: 'something',
+            location: 'London',
+            date: '30/03/2019'
+        }
+    ]
 
 #award
 .award
@@ -14,8 +22,29 @@
     //- map2 to location
     //- calendar to date
     .award__header=awardHeader
-    .award__card
-        award.icon
+    each award in awardList
+        .award__card
+            .award__icon
+                span.my-cv__icon--trophy
+
+
+            .award__title-award.title
+
+            .award__icon
+                span.my-cv__icon--info
+
+
+            .award__description-award-description
+
+            .award__icon
+                span.my-cv__icon--map2
+            .award__location-award-location
+
+            .award__icon
+                span.my-cv__icon--calendar
+            .award__date-award-date
+
+
             span.my-cv__icon--trophy
         .award__title=award.title
 
