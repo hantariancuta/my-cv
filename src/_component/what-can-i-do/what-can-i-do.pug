@@ -1,0 +1,51 @@
+//- the model, the data
+-
+    var header = '#what I can do'
+    var WhatCanIDoList = [
+        {
+         title: 'Front End', [   
+             skillList: 'Starter in Web Development',
+                        'Stuying',
+                        'Redux',
+                        'HTML5',
+                        'CSS3',
+                        'JAVACSRIPT',
+                        'PUG',
+                        'CSS',
+                        'JSON'
+            ]        
+
+        },
+    ];
+        {
+            title: 'BackEnd',
+            skilList: [
+                'Firebase',
+                'CLI',
+                'Pupet master',
+                'Virtual dreamer',
+                'Spit Iava angry dude'
+            ]
+        },
+        {
+            title: 'Tools',
+            skilList: [
+                'Windows',
+                'Chrome',
+                'Firefox',
+                'Google drive',
+                'Google Shopping'
+            ]
+        },
+    ];
+
+    //- the presentation, the view
+    #what-can-i-do
+    .what-can-i-do
+        what-can-i-do__header=header
+        each whatcanIDo in whatCanIDoList 
+            .what-can-i-do__title=whatCanIDo.title
+            .what-can-i-do__list
+            each skill in whatCanIDo.skillList
+                .what-can-i-do__skill=skill
+                
