@@ -1,20 +1,68 @@
-//- model, data
+//- //- model, data
 -
-    var header ='#experience'
-    var experienceList =    [
+    var header = '#experience'
+    var experienceList = [
         {
-            title: 'm',
-            data: 'the date',
-            company: 'the company',
-            responsabilityList: [   
-                'responsability one',
-                'responsability two',
-                'responsability three',
+            title: 'Junior in Web Development',
+            date: '2018 - present',
+            company: 'Codetap',
+            responsabilityList: [
+                'Front-End Developer and Netsuite Developer',
+                'IT and System Administrator',
+                'Marketing and Social Media Administrator',
+                'I manage the marketing and Social Media for Codetap'
+            ]
+        },
+        {
+            title: 'Starter in Web Development',
+            company: 'Codetap',
+            date: '2018 - present',
+            responsabilityList: [
+                `I've integrated tables, forms, buttons, drop down menu, mega menu, based on the designs and requirements using HTML and CSS`,
+                `I was happy to create the best working mood ever to increase productivity by 500%`,
+                `I've achieved perfect client smile with a score of 100% satisfaction`
+            ]
+        },
+        {
+            title: 'Starter in Web Development',
+            company: 'Codetap',
+            date: '2018 - present',
+            responsabilityList: [
+                `I had various projects in music industry and arts`,
+                `I worked with Reggaelize .it team at the website and helped with the events held by the crew back in Romania`,
+                `Assure that all user input is validated before submitting to back-end services`,
+                `Collaborate with other team members and stakeholders`
+            ]
+        },
+        {
+            title: 'Web developer1',
+            company: 'Codetap',
+            date: '2018 -present',
+            responsabilityList: [
+                `Learning programming`,
+                `exercise coding`,
+                `communicate with other students`
             ]
         }
-
     ];
-//- view, presentation
+
+//- //- view, presentation
+//- //- CSS "+" checked
 #experience
 .experience
-    .experience__header= header
+    .experience__header=header
+    input.experience__input(type="radio", name="same-name", id="experience-default")
+
+    each experience, key in experienceList
+        input.experience__input(type="radio", name="same-name", id=`experience-id-${key}`)
+        label.experience__title(for=`experience-id-${key}`)
+            | #{experience.title}
+            label(for="experience-default")
+                span.my-cv__icon--plus
+        .experience__details
+            .experience__top
+                .experience__date=experience.date
+                .experience__company=experience.company
+            .experince__list
+                each responsability in experience.responsabilityList
+                    .experience__responsability=responsability
