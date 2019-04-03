@@ -5,3 +5,15 @@
 .experience__input:checked+.experience__title+.experience__details {
   display: inherit;
 }
+
+.experience__header {
+  color: $color-periwinkle-gray;
+  @extend %header;
+}
+
+.experience__title {
+  background-color: $color-gumbo;
+  color: $color-white;
+  display: block;
+  font-size: 1.8rem;
+}
