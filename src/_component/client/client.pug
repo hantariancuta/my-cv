@@ -1,0 +1,18 @@
+
+-
+    var header = '#recent clients'
+    var clientList = [  
+        "/asset/image/client/airbnb.png",
+        "/asset/image/client/iss-logo-large.png",
+        "/asset/image/client/codetap.jpg",
+        "/asset/image/client/hotelcare.png",
+ ];
+
+
+#client
+.client 
+    .client__header=header
+    .client__list
+        each client in clientList
+            client__image
+                 img(src=client)

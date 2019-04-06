@@ -52,10 +52,11 @@
     input.experience__input(type="radio", name="same-name", id="experience-default")
 
     each experience, key in experienceList
-        input.experience__input(type="radio", name="my-experience", id=`experience-id-${key}`)
+        input.experience__input(type="radio", name="my-experience", 
+        id=`experience-id-${key}`)
         label.experience__title(for=`experience-id-${key}`)
-            | #{experience.title}
-            label(for="experience-default")
+            |      #{experience.title}
+            label(for="experience-default") aaa
                 span.my-cv__icon--plus
         .experience__details
             .experience__top
